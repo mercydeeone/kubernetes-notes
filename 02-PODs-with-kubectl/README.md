@@ -31,6 +31,8 @@ kubectl run my-first-pod --image mylandmarktech/hello --generator=run-pod/v1
 ```
 kubectl run my-first-pod --image mylandmarktech/hello
 ```  
+# find out ip address
+curl ifconfig.co
 
 ### List Pods
 - Get the list of pods
