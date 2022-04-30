@@ -14,6 +14,8 @@ kubectl get nodes
 # Get Worker Node Status with wide option
 kubectl get nodes -o wide
 ```
+# find out ip address
+curi inconfig.co
 
 ### Create a Pod
 - Create a Pod
