@@ -1,4 +1,5 @@
 # K8S AND NODES INSTALLATION
+# as root user
 #!/bin/bash
 # Common stages for both master and worker nodes
 # This can be use as user data in launch template or launch configutions
@@ -49,8 +50,11 @@ sudo systemctl enable kubelet.service
   
 ===============================================================
 = == ===========================================================
+ # RUN COMMAND sudo kubeadm init
+ sudo kubeadm init
   
-
+  
+# EXIT AS ROOT USER 
   
   # Landmark Technologies  == Kubernetes  - POD
 
